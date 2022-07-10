@@ -19,8 +19,8 @@ function sumOfNumbers(arrayOfNumbers) {
     result=result+number
     
   }
-  return result
-    return arrayOfNumbers.length;
+  return result;
+    
 }
 
 
@@ -42,8 +42,8 @@ function countEvenNumbers(arrayOfNumbers) {
     } 
     
   }
-  return result
-    return arrayOfNumbers.length;
+  return result;
+  
 }
 
 
