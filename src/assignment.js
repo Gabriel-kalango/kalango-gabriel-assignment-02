@@ -14,13 +14,16 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-  let result=o;
-  for (let number of arrayOfNumbers) {
-    result=result+number
+  let result=0;
+  for (let number=0; number<arrayOfNumbers.length; number++) {
+    result=result+arrayOfNumbers[number]
     
   }
-  return result;
-    
+
+
+  return result
+  
+    // return arrayOfNumbers.length;
 }
 
 
@@ -35,15 +38,17 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   result=0
-  for (let number of arrayOfNumbers) {
-    if (number%2===0) {
+  for (let num=0; num<arrayOfNumbers.length; num++) {
+    if (arrayOfNumbers[num]%2===0) {
       result++
       
-    } 
+    }
     
   }
-  return result;
-  
+
+
+  return result
+    // return arrayOfNumbers.length;
 }
 
 
